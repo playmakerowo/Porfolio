@@ -32,15 +32,41 @@
 </head>
 
 <body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
   <!-- ======= Header ======= -->
-  <main>
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Jorge Villagra</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://wa.link/azvqd7" Target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://github.com/playmakerowo" Target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/jorge-villagra/" class="linkedin" Target="_blank"><i
+              class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a>
+          </li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs bg-dark">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-          <h2 class="text-white">Social Duoc</h2>
+          <h2>Social Duoc</h2>
           <ol>
-            <li><a href="index.html">Volver</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Social Duoc</li>
           </ol>
         </div>
 
@@ -52,8 +78,8 @@
       <div class="container">
         <style>
           .swiper-slide img {
-            max-height: 500px; /* Establece un máximo de altura del 100% del contenedor */
-            object-fit: contain; /* Ajusta la imagen manteniendo su relación de aspecto y mostrándola completa sin recortar */
+            max-height: 500px;
+            object-fit: contain;
           }
         </style>
         <div class="row gy-4">
@@ -73,23 +99,23 @@
                   <img src="assets/img/portfolio/social_duoc_perfil/Publicacion.JPG" alt="">
                 </div>
 
-                <div class="swiper-slide" >
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/social_duoc_perfil/Chat.JPG" alt="">
                 </div>
 
-                <div class="swiper-slide" >
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/social_duoc_perfil/Grupos.JPG" alt="">
                 </div>
 
-                <div class="swiper-slide" >
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/social_duoc_perfil/Dashboard.JPG" alt="">
                 </div>
 
-                <div class="swiper-slide" >
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/social_duoc_perfil/Admin_publicaciones.JPG" alt="">
                 </div>
 
-                <div class="swiper-slide" >
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/social_duoc_perfil/Encuestas.JPG" alt="">
                 </div>
               </div>
@@ -103,21 +129,21 @@
               <ul>
                 <li><strong>Tipo</strong>: Web Django</li>
                 <li><strong>Fecha</strong>: 15/Dic/2023</li>
-                <li><strong>URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Repositorio</strong>: <a href="https://github.com/playmakerowo/tesis_red_social">www.github.com</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Social Duoc</h2>
               <p>
-                Una plataforma web que busca fomentar la comunicacion entre integrantes de una institucion mediante:</p>
+                Una plataforma web que busca fomentar la comunicación entre integrantes de una institución mediante:</p>
               <ul>
                 <li>Uso de Dajango, Jquery, datatable, Ajax, entre otros</li>
                 <li>Notificaciones</li>
                 <li>Chat (privado y grupal) en tiempo real</li>
-                <li>Administracion de chat grupal</li>
-                <li>Administracion con gestor de contenido</li>
+                <li>Administración de chat grupal</li>
+                <li>Administración con gestor de contenido</li>
                 <li>Feedback mediante sweetalert</li>
-                <li>Personalizacion de perfil</li>
+                <li>Personalización de perfil</li>
                 <li>Responsividad</li>
               </ul>
             </div>
@@ -127,7 +153,14 @@
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
-
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        Portfolio
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
